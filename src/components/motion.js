@@ -1,14 +1,10 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 
-const Ex = () => {
+const HoverAction = () => {
   return (
-    <motion.a
-        whileHover={{ scale: 1.2 }}
-        onHoverStart={e => {}}
-        onHoverEnd={e => {}}
-    />
+    <div>motion</div>
   )
 }
 
-export default Ex
+export default motion
